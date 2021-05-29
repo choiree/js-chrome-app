@@ -1,12 +1,37 @@
 body {
   background-color: #34495e;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .btn {
   cursor: pointer;
 }
 h1 {
-  color: #34495e;
+  font-size: 100px;
+  margin: 70px 0 20px;
   transition: color 0.5s ease-in-out;
+}
+h4 {
+  font-size: 30px;
+}
+span.js-weather {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+.js-toDoForm > input {
+  width: 250px;
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  border-bottom: 2px solid #fff;
+  outline: none;
+}
+.js-toDoForm > input::placeholder {
+  color: #fff;
+  text-align: center;
 }
 .form,
 .greetings {
